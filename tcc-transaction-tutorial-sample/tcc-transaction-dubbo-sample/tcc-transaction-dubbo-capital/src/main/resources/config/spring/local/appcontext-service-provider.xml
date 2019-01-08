@@ -21,7 +21,7 @@
 
     <!--<dubbo:registry address="N/A" />-->
 
-    <dubbo:protocol name="dubbo" port="${dubbo.port}" payload="52428800"/>
+    <dubbo:protocol name="dubbo" port="-1" payload="52428800"/>
 
     <dubbo:service interface="org.mengyun.tcctransaction.sample.dubbo.capital.api.CapitalTradeOrderService"
                    registry="capitalRpcZk"
